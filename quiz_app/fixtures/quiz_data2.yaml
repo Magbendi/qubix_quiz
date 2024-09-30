@@ -1,0 +1,274 @@
+- model: quiz_app.quiz
+  pk: 3
+  fields:
+    name: "Általános Műveltségi Kvíz"
+
+- model: quiz_app.question
+  pk: 21
+  fields:
+    quiz: 3
+    text: "Mi a Föld legnagyobb kontinense?"
+
+- model: quiz_app.answer
+  pk: 61
+  fields:
+    question: 21
+    text: "Ázsia"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 62
+  fields:
+    question: 21
+    text: "Afrika"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 63
+  fields:
+    question: 21
+    text: "Európa"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 22
+  fields:
+    quiz: 3
+    text: "Melyik fizikai mennyiséget mérik wattban?"
+
+- model: quiz_app.answer
+  pk: 64
+  fields:
+    question: 22
+    text: "Teljesítmény"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 65
+  fields:
+    question: 22
+    text: "Energia"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 66
+  fields:
+    question: 22
+    text: "Sebesség"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 23
+  fields:
+    quiz: 3
+    text: "Ki írta a \"Don Quijote\" című könyvet?"
+
+- model: quiz_app.answer
+  pk: 67
+  fields:
+    question: 23
+    text: "Miguel de Cervantes"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 68
+  fields:
+    question: 23
+    text: "William Shakespeare"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 69
+  fields:
+    question: 23
+    text: "Victor Hugo"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 24
+  fields:
+    quiz: 3
+    text: "Melyik a leghosszabb folyó a világon?"
+
+- model: quiz_app.answer
+  pk: 70
+  fields:
+    question: 24
+    text: "Amazonas"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 71
+  fields:
+    question: 24
+    text: "Nílus"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 72
+  fields:
+    question: 24
+    text: "Mississippi"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 25
+  fields:
+    quiz: 3
+    text: "Hány hónap van egy szökőévben?"
+
+- model: quiz_app.answer
+  pk: 73
+  fields:
+    question: 25
+    text: "12"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 74
+  fields:
+    question: 25
+    text: "11"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 75
+  fields:
+    question: 25
+    text: "13"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 26
+  fields:
+    quiz: 3
+    text: "Melyik állat a leggyorsabb a szárazföldön?"
+
+- model: quiz_app.answer
+  pk: 76
+  fields:
+    question: 26
+    text: "Gepárd"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 77
+  fields:
+    question: 26
+    text: "Oroszlán"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 78
+  fields:
+    question: 26
+    text: "Ló"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 27
+  fields:
+    quiz: 3
+    text: "Melyik bolygó ismert a \"Vörös Bolygó\" néven?"
+
+- model: quiz_app.answer
+  pk: 79
+  fields:
+    question: 27
+    text: "Mars"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 80
+  fields:
+    question: 27
+    text: "Jupiter"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 81
+  fields:
+    question: 27
+    text: "Szaturnusz"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 28
+  fields:
+    quiz: 3
+    text: "Mikor ért véget a második világháború?"
+
+- model: quiz_app.answer
+  pk: 82
+  fields:
+    question: 28
+    text: "1945"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 83
+  fields:
+    question: 28
+    text: "1940"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 84
+  fields:
+    question: 28
+    text: "1950"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 29
+  fields:
+    quiz: 3
+    text: "Ki festette a Mona Lisát?"
+
+- model: quiz_app.answer
+  pk: 85
+  fields:
+    question: 29
+    text: "Leonardo da Vinci"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 86
+  fields:
+    question: 29
+    text: "Pablo Picasso"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 87
+  fields:
+    question: 29
+    text: "Vincent van Gogh"
+    is_correct: false
+
+- model: quiz_app.question
+  pk: 30
+  fields:
+    quiz: 3
+    text: "Melyik országban található a Taj Mahal?"
+
+- model: quiz_app.answer
+  pk: 88
+  fields:
+    question: 30
+    text: "India"
+    is_correct: true
+
+- model: quiz_app.answer
+  pk: 89
+  fields:
+    question: 30
+    text: "Kína"
+    is_correct: false
+
+- model: quiz_app.answer
+  pk: 90
+  fields:
+    question: 30
+    text: "Nepál"
+    is_correct: false

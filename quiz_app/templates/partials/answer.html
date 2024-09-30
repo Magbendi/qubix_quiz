@@ -1,0 +1,36 @@
+
+<form hx-post="{% url 'get-questions' %}">
+    {% csrf_token %}
+    <input type="hidden" name="quiz_id" value="{{ answer.question.quiz_id }}">
+  
+  
+    <p>Kérdés:</p>
+    <p>{{ answer.question.text }}</p>
+    <br>
+    <div>
+      Válaszod:
+      <p>{{ submitted_answer.text }}</p>
+    </div>
+  
+  
+    <div>
+      {% if submitted_answer.is_correct %}
+      <div>
+        <p>Helyes</p>
+      </div>
+      {% else %}
+      <div>
+        <p>Helytelen</p>
+        <p>Helyes válasz: </p>
+        <p>{{ answer.text }}</p>
+      </div>
+      {% endif %}
+  
+    </div>
+  
+  
+    <button class="btn">
+      Következő kérdés
+    </button>
+  </form>
+  
